@@ -1,0 +1,13 @@
+For recognising handwritten forms, the very first step was to gather data in a considerable amount for training. Which I struggled to collect for weeks.
+
+Content
+The dataset contains 26 folders (A-Z) containing handwritten images in size 2828 pixels, each alphabet in the image is centre fitted to 2020 pixel box.
+
+Each image is stored as Gray-level
+
+Kernel CSV_To_Images contains script to convert .CSV file to actual images in .png format in structured folder.
+
+Note: Might contain some noisy image as well
+
+Acknowledgements
+The images are taken from NIST(https://www.nist.gov/srd/nist-special-database-19) and NMIST large dataset and few other sources which were then formatted as mentioned above.
